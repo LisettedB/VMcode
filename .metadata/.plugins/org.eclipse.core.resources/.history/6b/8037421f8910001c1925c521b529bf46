@@ -1,0 +1,7 @@
+public class Demo {
+	public static void main(String[] args) {
+		System.out.println("hoi");
+		int getal = 3;
+		System.out.println(getal);
+	}
+}

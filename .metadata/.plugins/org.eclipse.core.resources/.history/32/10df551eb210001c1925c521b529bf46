@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class Counte {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Voer het woord in om e's te tellen: ");
+		String woord = sc.nextLine();
+	}
+}

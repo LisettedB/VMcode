@@ -1,0 +1,18 @@
+public class Demo {
+	public static void main(String[] args) {
+		System.out.println("hoi");
+		int getal = 3;
+		System.out.println(getal);
+		
+		Huis huis1 = new Huis();
+		huis1.hoogte = 12;
+		huis1.verkopen();
+	}
+}
+
+class Huis {
+	int hoogte;
+	void verkopen() {
+		System.out.println("Het huis wordt verkocht!");
+	}
+}

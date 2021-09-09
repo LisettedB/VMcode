@@ -1,0 +1,44 @@
+public class Demo {
+	public static void main(String[] args) {
+		Wandeling wandeling1 = new Wandeling();
+		wandeling1.nrRestaurants = 5;
+		wandeling1.lengte = 10.10;
+		wandeling1.naam = "Rivierenloop";
+		wandeling1.moeilijkheidsclasse = 'A';
+		wandeling1.parkeerplaats = true;
+		wandeling1.wandelinggelopen();
+		System.out.println(wandeling1.wandelinggelopen);
+		wandeling1.stappennaarafstand(10000);
+		System.out.println(wandeling1.stappennaarafstand(10000));
+		Wandeling wandeling2 = new Wandeling();
+		System.out.println(wandeling1.langstewandelingbestaand);
+		wandeling1.langstewandelingbestaand = 195;
+		System.out.println(wandeling2.langstewandelingbestaand);
+		
+				
+	}
+	
+}
+
+
+class Wandeling {
+	int nrRestaurants;
+	double lengte;
+	String naam;
+	char moeilijkheidsclasse;
+	boolean parkeerplaats;
+	boolean wandelinggelopen = false;
+	double afstandgelopen;
+	static int langstewandelingbestaand = 183;
+	
+	boolean wandelinggelopen() {
+		wandelinggelopen = true;
+		return wandelinggelopen;
+	}
+	
+	double stappennaarafstand(int stappen) {
+		afstandgelopen = stappen * 0.85;
+		return afstandgelopen;
+		
+	}
+}

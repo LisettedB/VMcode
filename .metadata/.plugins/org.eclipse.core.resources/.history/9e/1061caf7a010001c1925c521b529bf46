@@ -1,0 +1,32 @@
+public class Demo {
+	public static void main(String[] args) {
+		Wandeling wandeling1 = new Wandeling();
+		wandeling1.nrrestaurants = 5;
+		wandeling1.lengte = 10.10;
+		wandeling1.naam = "Rivierenloop";
+		wandeling1.moeilijkheidsclasse = 'A';
+		wandeling1.parkeerplaats = true;
+		wandeling1.wandelinggelopen();
+		System.out.println(wandeling1.wandelinggelopen());
+		
+				
+	}
+	
+	
+
+}
+
+
+class Wandeling {
+	int nrrestaurants;
+	double lengte;
+	String naam;
+	char moeilijkheidsclasse;
+	boolean parkeerplaats;
+	boolean wandelinggelopen = false;
+	
+	boolean wandelinggelopen() {
+		wandelinggelopen = true;
+		return wandelinggelopen;
+	}
+}

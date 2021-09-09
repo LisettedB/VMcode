@@ -1,0 +1,11 @@
+
+public class Stringscombineren {
+	public static void main(String[] args) {
+		String str1 = "Fiets";
+		String str2 = "band";
+		String str3 = "en";
+		String result;
+		result = str1+str2+str3;
+		System.out.println(result);
+	}
+}
