@@ -1,3 +1,4 @@
+//Java miniopdracht 1
 import java.util.Scanner;
 
 public class Stringscombineren {
