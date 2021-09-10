@@ -1,4 +1,4 @@
-//Java miniopdracht 7
+//Java miniopdracht 7 - 
 import java.util.Scanner;
 
 public class LingoCheck {
